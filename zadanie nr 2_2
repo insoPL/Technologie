@@ -1,0 +1,26 @@
+1GB = 1024*1024*1024 = 1073741824 bajtow
+1073741824 * 8 = 8589934592 bitow
+
+10 Mb/s = 10 000 000 bitow/s
+
+8589934592 bitow / 10 000 000 bitow/s = 859 sekund
+
+Typowy pakiet Ethernet ma 1518 bajtów, z czego dane użyteczne to 1460 bajtów (MSS). Nagłówki (Ethernet + IP + TCP) zajmują ok. 58 bajtów.Narzut wynosi ok. $\frac{58}{1460} \approx 4\%$.Zadanie mówi "rzędu kilku procent", przyjmijmy więc bezpiecznie 4%.
+
+A wiec czas transmisji zwrosnie o 4% do 902 sekund czyli okolo 15 minut
+
+zadanie 3
+
+Pamięć podręczna DNS (DNS Cache) to tymczasowa baza danych w Twoim systemie operacyjnym (lub przeglądarce), która przechowuje ostatnie wizyty na stronach internetowych.
+
+Działa jak "szybka lista kontaktów", łącząc nazwę domeny (np. google.com) z jej adresem IP.
+
+Dlaczego komputer to robi?
+Szybkość: Odczytanie adresu z dysku/pamięci RAM komputera trwa ułamki milisekund. Zapytanie serwera DNS w Internecie może trwać 20–100 razy dłużej.
+
+Mniejsze obciążenie sieci: Ogranicza liczbę zapytań wysyłanych do serwerów DNS dostawcy internetu.
+
+Dostępność: Jeśli serwer DNS chwilowo padnie, nadal wejdziesz na strony zapamiętane w cache (dopóki nie wygaśnie ich ważność - TTL).
+
+zadanie 4
+

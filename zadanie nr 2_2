@@ -22,5 +22,15 @@ Mniejsze obciążenie sieci: Ogranicza liczbę zapytań wysyłanych do serwerów
 
 Dostępność: Jeśli serwer DNS chwilowo padnie, nadal wejdziesz na strony zapamiętane w cache (dopóki nie wygaśnie ich ważność - TTL).
 
-zadanie 4
+zadanie 6
+
+Gdzie znajdują się parametry w metodzie GET? W adresie URL (w nagłówku żądania), po znaku zapytania ?. Są widoczne w pasku adresu przeglądarki.
+
+Czy są one szyfrowane? https szyfruje URL strony E2E
+
+Jaka jest różnica między GET a POST w miejscu przesyłania danych?
+
+GET: Przesyła dane w adresie URL (ograniczona długość, widoczne).
+
+POST: Przesyła dane w ciele żądania (Request Body) – są ukryte w pasku adresu i nie mają ścisłego limitu wielkości
 

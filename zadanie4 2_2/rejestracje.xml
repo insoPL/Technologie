@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rejestracje>
+    <osoba>
+        <imie>Jan</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <plec>M</plec>
+        <wiek>34</wiek>
+    </osoba>
+    <osoba>
+        <imie>Anna</imie>
+        <nazwisko>Nowak</nazwisko>
+        <plec>K</plec>
+        <wiek>28</wiek>
+    </osoba>
+    <osoba>
+        <imie>Michał</imie>
+        <nazwisko>Wiśniewski</nazwisko>
+        <plec>M</plec>
+        <wiek>42</wiek>
+    </osoba>
+</rejestracje>

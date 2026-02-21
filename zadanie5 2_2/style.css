@@ -1,0 +1,30 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f0f2f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+.card {
+	background: white;
+	padding: 2rem;
+	border-radius: 15px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+	text-align: center;
+}
+h1 {
+	font-size: 5rem;
+	color: #ff4757;
+	margin: 0;
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+h1:hover {
+	transform: scale(1.1) rotate(5deg);
+}
+p {
+	color: #57606f;
+	font-weight: bold;
+}
